@@ -157,7 +157,7 @@ Transform:
   m_GameObject: {fileID: 37811356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 14.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9504,7 +9504,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &921137508149637760
 GameObject:
   m_ObjectHideFlags: 0
@@ -9993,7 +9993,13 @@ MonoBehaviour:
   agility: 0
   damage: 0
   canShoot: 0
-  Player: {fileID: 0}
+  jumpForce: 400
+  horizontalMove: 0
+  jump: 0
+  jumpKey: 32
+  barbSword: {fileID: 170944, guid: 6ad8ef9fd646a6d4282f4ca4b4ae5ee4, type: 3}
+  tankShield: {fileID: 112400, guid: bb4897091734dc545800338f85c4ee1d, type: 3}
+  mageBook: {fileID: 136464, guid: a7f711bab3563ec478f4512e5b6bbf0b, type: 3}
 --- !u!4 &7026572757904755413
 Transform:
   m_ObjectHideFlags: 0
